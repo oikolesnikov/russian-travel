@@ -1,0 +1,26 @@
+.places__website {
+    grid-area: places__website;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 12px;
+}
+@media screen and (max-width: 768px) {
+    .places__website {
+        justify-content: center;
+        padding-top: 11px;
+    }
+  }
+@media screen and (max-width: 556px) {
+    .places__website {
+        justify-content: flex-start;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+  }
+@media screen and (max-width: 320px) {
+    .places__website {
+        padding-left: 16px;
+    }
+  }
